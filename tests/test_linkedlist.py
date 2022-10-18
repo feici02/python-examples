@@ -1,5 +1,6 @@
 import pytest
-from linked_list import LinkedList
+
+from datastructure.linkedlist import LinkedList
 
 
 @pytest.fixture

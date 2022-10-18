@@ -38,7 +38,7 @@ class LinkedList:
         result = []
 
         current = self.header
-        while current != None:
+        while current is not None:
             result.append(current.data)
             current = current.next
 
@@ -68,7 +68,7 @@ class LinkedList:
             self.tail = None
         else:
             current = self.header
-            while current.next.next != None:
+            while current.next.next is not None:
                 current = current.next
             current.next = None
             self.tail = current
